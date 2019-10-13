@@ -1,0 +1,136 @@
+Lab 1
+
+Install Python on your PC, and then perform following tasks
+
+
+A. Execute followings, and evaluate the answer
+
+1. >>>Age = 20                                                // Command Accepted
+2. >>>Pi = 3.14                                               // Command Accepted
+3. >>>Name = ‘Amit’                                           // Command Accepted
+4. >>>Laptop@ = 1000000                                       // SyntaxError: invalid Syntax  ------------------------>>>>>>>>>>>>>>>> Special Characters not allowed
+5. >>>sirname = Sharma                                        // Traceback (most recent call last):
+                                                                 File "<pyshell#4>", line 1, in <module>
+                                                                 sirname=sharma  ------------------------------------->>>>>>>>>>>>>>>> Can Be Fixed by typing sirname='sharma'
+                                                                 NameError: name 'sharma' is not defined
+6. >>>class = 'Advanced Theoretical Zymurgy'                  // SyntaxError: invalid Syntax ------------------------>>>>>>>>>>>>>>>>> 'class' is a keyword use 'Class'
+7. >>>zipcode = 2492                                          // Command Accepted
+8. >>>phone = 07542265                                        // Command Accepted but return wrong value
+                                                                                 
+9. >>>76Street = ' for big parade’                            // SyntaxError: invalid Syntax  ----------------------->>>>>>>>>>>>>>>>> Variable Name Error
+
+B. Evaluate following expressions
+I. >>>minute = 59                                             // Command Accepted 
+II. >>>minute/60                                              // 0
+ 
+III. >>>17                                                    // Display 17
+IV. >>>x                                                      // NameError: name 'x' is not defined ---------------->>>>>>>>>>>>>>>>>> X needs a value to be assigned
+V. >>>x + 17                                                  // NameError: name 'x' is not defined ---------------->>>>>>>>>>>>>>>>>> x is not assigned previously
+                  
+VI. >>>miles = 26.2                                           // Command Accepted
+VII. >>>print miles * 1.61                                    // Display 42.182
+
+VIII. >>>print 1                                              // Display 1
+IX. >>>x = 2                                                  // Command Accepted
+X. >>>print x                                                 // Display the value of x as '2'
+XI. >>>x +  1                                                 // Display the value of x as '3'
+C. Assume that we execute the following assignment statements:
+                   width = 17                                                                                                         // Command Accepted
+                 height = 12.0                                                                                                        // Command Accepted  
+                 delimiter = '.'                                                                                                      // Command Accepted
+For each of the following expressions, write the value of the expression and the type (of the value of the expression).
+1.       width/2                                                                                                                      // 8
+2.       width/2.0                                                                                                                    // 8.5
+3.       height/3                                                                                                                     // 4.0
+4.       1 + 2 * 5
+5.       delimiter * 5                                                                                                                // '.....'
+D. Verify the rules of precedence mathematical operators.                                         ***                              
+     
+   //  9*5-4+2/3
+   // 41                               // It Follow the Precedence Order                     
+
+E. Calculate simple interest.                                                                     
+
+   //
+     P=1000    //Command Accepted
+     T=10      //Command Accepted
+     R=0.05    //Command Accepted
+     SI=P*T*R  //Command Accepted
+     SI        //Display the value of SI as '500.0'
+   //
+
+F. Calculate compound interest.
+
+
+G. Find the value of force when mass of a body and its acceleration is given.
+   F =  m *  a
+  
+  // 
+     m=10     // Command Accpeted
+     a=6      // Command Accpeted
+     F=m*a    // Command Accpeted
+     F        // Display the value of F as '60'
+ //
+
+H. Convert a temperature from Celsius to Fahrenheit.
+  
+  // 
+    cel=40;          // Command Accpeted
+    fah=1.8*c+32;    // Command Accpeted
+    fah              // Display the value of fah as '104.0'
+ //
+
+I. Convert a temperature from Fahrenheit to Celsius. 
+  
+  //
+    cel = (fah-32)/1.8 // Command Accepted
+    cel                // Display the value of cel as 40.0
+
+  //
+ 
+J. Compute the area of circle, when its diameter is given.
+   
+  //
+     diameter = 20;                           // Command Accepted
+     Area = 3.14 * (diameter*diameter)/4      // Command Accepted
+     Area                                     // Display the value of Area as '314.0'
+ //
+ 
+K. Compute the volume of a cylinder, when its height and diameter is given.
+  
+  //
+     Pi=3.14                               // Command Accepted
+     rad = 5                               // Command Accpeted
+     height                                // Display the value 12.0 bcoz already defined
+     Vol = Pi*rad*rad*height               // Command Accepted
+     Vol                                   // Display the value of Vol as 942.0 
+  //
+
+   The volume V for a right circular cylinder with radius r and height h is given by the formula
+V =  p r2 h
+L. Compute the surface  area of a cylinder, when its height and diameter is given.
+  A = 2pr2 + 2prh
+  
+  //
+    A = (2*Pi*rad*rad)+(2*Pi*rad*height)                        // Command Accepted
+    A                                                           // Display the result as 533.8
+  //
+  
+M. Compute the area of a rectangular prism, when it’s all sides is given.
+area = 2 · (h · d + h · w + d · w)
+  
+  // 
+     h=12                                    // Command Accepted
+     d=13                                    // Command Accepted
+     w=14                                    // Command Accepted
+     AreaP=2*(h*d+h*w+d*w)                   // Command Accepted
+     AreaP                                  //  Display Result as 1012
+ //
+ 
+N. Compute the volume of a rectangular prism, when its all sides are given.
+volume = h · d · w
+
+ //
+   Vol = h*d*w                               // Command Accepted
+   Vol                                       // Display result as 2184 
+ // 
